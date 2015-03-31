@@ -51,7 +51,7 @@ var server = net.createServer(function(socket) {
 		}
 		});
 		for (var i = 0; i<40; i++){
-			if (p.length === 2) {
+			if (p.length === 40) {
 				 p = [""]
 			}
 		}
